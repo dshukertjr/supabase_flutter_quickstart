@@ -5,10 +5,10 @@ import 'package:supabase_quickstart/pages/login_page.dart';
 import 'package:supabase_quickstart/pages/splash_page.dart';
 
 void main() async {
+  // TODO: update it with your own credentials
   await Supabase.initialize(
-    url: 'https://sruvqzxsnbbcictcxsym.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNydXZxenhzbmJiY2ljdGN4c3ltIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODY3MTQ1MzIsImV4cCI6MjAwMjI5MDUzMn0.kuEa1M2W0vrJqrWCKkPMdxgWaA5tqv95TVa6CDOxJNc',
+    url: 'https://projectref.supabase.co',
+    anonKey: 'YOUR_ANON_KEY',
     authFlowType: AuthFlowType.pkce,
   );
   runApp(const MyApp());
